@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html">About Me</a></li>
+        <li><a href="./contact.html">Contact Me</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h1>Contact Form</h1>
+      <p>I would love to hear from you!</p>
+      <form>
+        <p>
+          <label for="firstName">
+            First Name:
+            <input type="text" name="firstName" id="firstName" />
+          </label>
+        </p>
+        <p>
+          <label for="lastName">
+            Last Name:
+            <input type="text" name="lastName" id="lastName" />
+          </label>
+        </p>
+
+        <p>
+          <label for="gender">
+            Gender:
+            <select name="gender" id="gender">
+              <option value="" disabled selected>Select Gender</option>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label for="dateOfBirth">
+            Date of Birth:
+            <input type="date" name="dateOfBirth" id="dateOfBirth" />
+          </label>
+        </p>
+        <p>
+          <label for="email"
+            >Email Address:
+            <input type="email" name="email" id="email" />
+          </label>
+        </p>
+        <p>
+          <label for="educationLevel">
+            Education Level:
+            <select name="educationLevel" id="educationLevel">
+              <option value="" disabled selected>
+                Select level of education
+              </option>
+              <option value="bsc">Bsc</option>
+              <option value="msc">MSc</option>
+              <option value="diploma">Diploma</option>
+              <option value="doctorate">Doctorate(phD)</option>
+              <option value="highschool">High School/ Secondary School</option>
+              <option value="undergraduate">Undergraduate</option>
+              <option value="juniorschool">Junior/Middle School</option>
+              <option value="postgraduate">Postgraduate</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label for="country"
+            >Country:
+            <input type="text" name="country" id="country" />
+          </label>
+        </p>
+        <p>
+          <label for="city"
+            >State/City of Residence:
+            <input type="text" name="city" id="city" />
+          </label>
+        </p>
+        <p>
+          <label for="employmentStatus">
+            Employment Status:
+            <select name="employmentStatus" id="employmentStatus">
+              <option value="" disabled selected>
+                Select employment status
+              </option>
+              <option value="employed">Employed</option>
+              <option value="unemployed">Unemployed</option>
+              <option value="selfemployed">Self-Employed</option>
+            </select>
+          </label>
+        </p>
+        <p>
+          <label for="phoneNumber"
+            >Phone Number:
+            <input type="tel" name="phoneNumber" id="phoneNumber" />
+          </label>
+        </p>
+        <p>
+          <label for="school"
+            >Choose Course of Study:
+            <select name="school" id="school">
+              <option value="" disabled selected>Select School</option>
+              <option value="soce">School of Creative Economy</option>
+              <option value="sob">School of Business</option>
+            </select>
+          </label>
+        </p>
+
+        <p>
+          <label for="courseOfStudy"
+            >Choose Course of Study:
+            <select name="courseOfStudy" id="courseOfStudy">
+              <option value="" disabled selected>Select Course</option>
+            </select>
+          </label>
+        </p>
+
+        <p>
+          <label for="info"
+            >How did you hear about us?
+            <select name="info" id="info">
+              <option value="" disabled selected>Select Channel</option>
+              <option value="tw">Twitter</option>
+              <option value="fb">Facebook</option>
+              <option value="li">LinkedIn</option>
+              <option value="yt">YouTube</option>
+              <option value="friend">Friend</option>
+              <option value="wa">WhatsApp</option>
+              <option value="ig">Instagram</option>
+              <option value="billBoard">Bill Board</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+        </p>
+
+        <p>
+          <label for="discountCode"
+            >Scholarship/Discount Code(optional):
+            <input type="text" name="discountCode" id="discountCode" />
+          </label>
+        </p>
+
+        <p>
+          <i
+            >By clicking continue, I agree to
+            <span style="color: blue">Terms of Use</span> and acknowledge that I
+            have read the <span style="color: blue">Privacy Policy</span></i
+          >
+        </p>
+
+        <button
+          type="submit"
+          style="
+            width: 35%;
+            background-color: rgba(45, 45, 239, 0.721);
+            color: white;
+            border: none;
+            height: 30px;
+            font-weight: bold;
+          "
+        >
+          Proceed
+        </button>
+      </form>
+    </section>
+  </body>
+</html>
